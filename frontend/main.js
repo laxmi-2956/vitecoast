@@ -12,7 +12,7 @@ let productData = [];
 function  fetchData(){
 
 
-    fetch("http://localhost:3000/pitches")
+    fetch("https://vitecoast.onrender.com/pitches")
     .then((res)=>res.json())
     .then((data)=>{
         showData(data)
